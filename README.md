@@ -4,7 +4,7 @@ Manipulasi string dalam echo unix
 #!/bin/bash
 VAR=" 2 1 34 3 2 "
 shopt -s extglob # Enable the `+(...)`
-expression=${VAR#+(\ )} # Remove leading spaces.
-expression=${expression%+(\ )} # Remove trailing spaces.
-echo ${expression//+(\ )/+}   # Replace strings of spaces by pluses
+expression=${VAR#+(\ )}
+expression=${expression%+(\ )}
+echo ${expression//+(\ )/+}   
 </code>
