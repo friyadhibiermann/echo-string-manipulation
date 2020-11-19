@@ -1,6 +1,5 @@
 # echo-string-manipulation
 Manipulasi string dalam echo unix
-<code>
 <pre>
 #!/bin/bash
 VAR=" 2 1 34 3 2 "
@@ -9,4 +8,3 @@ expression=${VAR#+(\ )}
 expression=${expression%+(\ )}
 echo ${expression//+(\ )/+}
 </pre> 
-</code>
