@@ -8,7 +8,7 @@ expression=${VAR#+(\ )}
 expression=${expression%+(\ )}
 echo ${expression//+(\ )/+}
 </pre> 
-# Hasil
+Hasil
 <pre>
 2+1+34+3+2
 </pre>
